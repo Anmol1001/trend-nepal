@@ -1,4 +1,3 @@
-import React from 'react'
 import Topmenu from './Topmenu/Topmenu'
 import Midmenu from './Midmenu/Midmenu'
 import Bottommenu from './Bottommenu/Bottommenu'

@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo from './Logo'
 import { ChevronDown } from 'lucide-react'
 import SearchCategories from './SearchCategories'
@@ -13,7 +12,7 @@ const Midmenu = () => {
         <div className='h-24 w-24'>
             <Logo />
         </div>
-        <span className='h-24 w-24 flex items-center cursor-pointer'>
+        <span className='h-24 w-24 text-sm text-slate-500 flex items-center cursor-pointer'>
             Shop by Category 
             <ChevronDown />
         </span>

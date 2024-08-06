@@ -1,9 +1,9 @@
-import Button from '../../Button/Button'
+import MyButton from "../../Button/MyButton"
 
 const NavButton = () => {
-  return (
+  return (  
     <div>
-        <Button text="Search" bgColor="button" height="16" width="40"/>
+      <MyButton text="Search"/>
     </div>
   )
 }

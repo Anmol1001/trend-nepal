@@ -1,6 +1,4 @@
 import { BellIcon, ShoppingCart } from 'lucide-react'
-import React from 'react'
-
 
 const TopmenuContent = () => {
   return (
