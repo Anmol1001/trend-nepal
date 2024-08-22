@@ -1,13 +1,12 @@
 import './App.css';
-import Slider from './components/Slider';
-import Navbar from './components/Navbar/Navbar';
-
+import Homepage from './components/Homepage';
+import SignUp from './components/Login/SignUp';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Slider />
+     {/* <Homepage /> */}
+     <SignUp />
     </div>
   );
 }

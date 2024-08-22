@@ -1,5 +1,5 @@
 
-import Banner from "./Banner";
+import Banner from "./Banner/Banner";
 import { BannerData } from "./lib/data";
 import {
   Carousel,
@@ -17,8 +17,8 @@ const Slider = () => {
           {
             BannerData.map((data)=>(
               <>
-                <CarouselItem>
-                <Banner source={data.source} alt={data.alt} title={data.title} description={data.description} button_title={data.button_title}/>
+                <CarouselItem  key={data.id} >
+                  <Banner id={data.id} source={data.source} alt={data.alt} title={data.title} description={data.description} button_title={data.button_title} color={data.color}/>
                 </CarouselItem> 
               </>
             ))
